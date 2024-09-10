@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{--bg-header:#ff6900;
+    
+}
+#app_header{
+   background-color:var(--bg-header);
+   
+}
+
+.container-d-flex{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    color: white;
+    margin: auto;
+    padding: 1rem 0;
+    align-items: center;
+    
+    
+
+}
+
+.logo{ width: 10%;text-align: center;
+    img{
+        max-width: 100%;
+    }
+    
+}
+
+.menu{
+    text-align: left;
+    
+}
+
+.icon-container{
+    text-align: end;
+}
