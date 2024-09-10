@@ -10,12 +10,13 @@
 }
 #app_header{
    background-color:var(--bg-header);
+  
    
 }
 
 .container-d-flex{
     display: flex;
-    width: 80%;
+    width: 70%;
     justify-content: space-between;
     color: white;
     margin: auto;
@@ -23,7 +24,7 @@
     align-items: center;
     
     
-
+  
 }
 
 .logo{ width: 10%;text-align: center;
@@ -33,11 +34,15 @@
     
 }
 
-.menu{
-    text-align: left;
+.first-raw{
+    
+   
+  
     
 }
+#pic_number2, #pic_number1, #pic_number3{
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 0;
 
-.icon-container{
-    text-align: end;
 }
