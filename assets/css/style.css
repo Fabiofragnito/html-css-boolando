@@ -22,9 +22,16 @@
     margin: auto;
     padding: 1rem 0;
     align-items: center;
+}
+
+.container-main{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
     
-    
-  
 }
 
 .logo{ width: 10%;text-align: center;
@@ -35,14 +42,110 @@
 }
 
 .first-raw{
+    margin-top: 2rem;
+    
+}
+#first{
+    
+}
+#pic_number1{
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    
+
     
    
-  
+    
+    
     
 }
-#pic_number2, #pic_number1, #pic_number3{
+#pic_number2{
     display: inline-block;
-    margin-top: 2rem;
-    padding: 1rem 0;
+    margin-right: 20px;
+    position: relative;
+    
+    
+    
+}
+#pic_number3{
+    display: inline-block;
+    position: relative;
+    
+   
+    
+    
+    
+}
+
+
+.heart{
+    position: absolute;top: 5px;left: 300px;
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 2px;
+    
 
 }
+
+.discount{
+    position: absolute;bottom: 80px;left: 0px;
+    color: white;
+    background-color: red;
+    font-size: 10px;
+    height: 15px;
+    width: 40px;
+    padding: 2px;
+    text-align: center;
+
+}
+
+.green_banner{
+    position: absolute;bottom: 80px;left: 45px;
+    color: white;
+    background-color: green;
+    font-size: 10px;
+    height: 15px;
+    width: 70px;
+    padding: 2px;
+    text-align: center;
+
+}
+
+.description{
+    color: black;
+    font-size: 15px;
+}
+
+.red_price{
+    color: red;
+    font-size: 10px;
+    
+    
+}
+
+.override_price{
+    text-decoration: line-through;
+    color: gray;font-size: 10px;
+    
+}
+/* .item>.discount{
+    position: absolute;top: 0;right: 0;
+    background-color: rgb(9, 244, 9);   
+}
+
+.heart{
+    ;
+    font-size: 30px;
+    color: red; 
+    display: none; 
+
+}
+
+.item>.discount2{
+    position: absolute;top: 0;right: 0;
+    background-color: rgb(255, 87, 0); */
