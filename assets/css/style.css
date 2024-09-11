@@ -10,12 +10,14 @@
     
 }
 #app_header{
-   background-color:var(--bg-header)
+   background-color:var(--bg-header);
+   
+   
   
    
 }
-
 .container-d-flex{
+    
     display: flex;
     width: 70%;
     justify-content: space-between;
@@ -23,6 +25,7 @@
     margin: auto;
     padding: 1rem 0;
     align-items: center;
+   
 }
 
 .container-main{
@@ -36,12 +39,13 @@ footer{
     margin-top: 2rem;
     background-color: var(--bg-footer);
     color: white;
-    padding-top: 50px;
-    padding-bottom: 1rem;
+    padding-top: 30px;
+    padding-bottom: 2rem;
 
 }
 
 .container-footer{
+    
     width: 70%;
     display: flex;
     justify-content: space-between;
@@ -55,9 +59,6 @@ footer{
 
 .social-media{
     margin-top: 10px;
-    text-align: center;
-    
-
 }
 
 .first-raw{
@@ -87,15 +88,15 @@ footer{
 #pic_number1{
     position: relative;
     display: inline-block;
-    margin-right: 20px;
-    
-
-    
-   
-    
-    
+    margin-right: 20px; 
     
 }
+
+
+
+
+
+
 #pic_number2{
     display: inline-block;
     margin-right: 20px;
@@ -134,6 +135,8 @@ footer{
     width: 40px;
     text-align: center;
     padding: 2px;
+    
+    
 }
 
 .discount{
