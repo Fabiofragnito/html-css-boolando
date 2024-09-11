@@ -11,6 +11,8 @@
 }
 #app_header{
    background-color:var(--bg-header);
+   position: sticky;top: 0;left: 0;
+   z-index: 1000;
    
    
   
@@ -64,17 +66,11 @@ footer{
 .first-raw{
     display: flex;
     justify-content: center;
-    
-
-}
-.second-raw{
-    display: flex;
-    justify-content: center;
     margin-top: 2rem;
     
 
-   
 }
+
 
 .logo{ width: 10%;text-align: center;
     img{
@@ -85,13 +81,25 @@ footer{
 
 
 
-#pic_number1{
+.pic_number1{
     position: relative;
     display: inline-block;
     margin-right: 20px; 
     
 }
 
+
+
+.first-raw .pic_number1 .back{
+    display: none;
+}
+
+.first-raw:hover .pic_number1 .back{
+    display: inline-block;
+}
+.first-raw:hover .pic_number1 .front{
+    display: none;
+}
 
 
 
@@ -105,24 +113,89 @@ footer{
     
     
 }
+
+
+.first-raw #pic_number2 .back{
+    display: none;
+}
+
+.first-raw:hover #pic_number2 .back{
+    display: inline-block;
+}
+.first-raw:hover #pic_number2 .front{
+    display: none;
+}
+
+
 #pic_number3{
     display: inline-block;
     position: relative;   
 }
+.first-raw #pic_number3 .back{
+    display: none;
+}
+
+.first-raw:hover #pic_number3 .back{
+    display: inline-block;
+}
+.first-raw:hover #pic_number3 .front{
+    display: none;
+}
+
 #pic_number4{
     display: inline-block;
     position: relative; 
     margin-right: 20px;  
 }
+
+.first-raw #pic_number4 .back{
+    display: none;
+}
+
+.first-raw:hover #pic_number4 .back{
+    display: inline-block;
+}
+.first-raw:hover #pic_number4 .front{
+    display: none;
+}
+
+
 #pic_number5{
     display: inline-block;
     position: relative; 
     margin-right: 20px;  
 }
+
+.first-raw #pic_number5 .back{
+    display: none;
+}
+
+.first-raw:hover #pic_number5 .back{
+    display: inline-block;
+}
+.first-raw:hover #pic_number5 .front{
+    display: none;
+}
+
+
 #pic_number6{
     display: inline-block;
     position: relative;   
+
 }
+
+.first-raw #pic_number6 .back{
+    display: none;
+}
+
+.first-raw:hover #pic_number6 .back{
+    display: inline-block;
+}
+.first-raw:hover #pic_number6 .front{
+    display: none;
+}
+
+
 
 
 
@@ -135,6 +208,7 @@ footer{
     width: 40px;
     text-align: center;
     padding: 2px;
+    
     
     
 }
