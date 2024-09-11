@@ -9,7 +9,7 @@
     
 }
 #app_header{
-   background-color:var(--bg-header);
+   background-color:var(--bg-header)
   
    
 }
@@ -28,10 +28,23 @@
     max-width: 1200px;
     margin: auto;
     margin-top: 2rem;
+    
+    
+}
+
+.first-raw{
     display: flex;
-    align-self: center;
     justify-content: center;
     
+
+}
+.second-raw{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    
+
+   
 }
 
 .logo{ width: 10%;text-align: center;
@@ -41,13 +54,8 @@
     
 }
 
-.first-raw{
-    margin-top: 2rem;
-    
-}
-#first{
-    
-}
+
+
 #pic_number1{
     position: relative;
     display: inline-block;
@@ -70,13 +78,23 @@
 }
 #pic_number3{
     display: inline-block;
-    position: relative;
-    
-   
-    
-    
-    
+    position: relative;   
 }
+#pic_number4{
+    display: inline-block;
+    position: relative; 
+    margin-right: 20px;  
+}
+#pic_number5{
+    display: inline-block;
+    position: relative; 
+    margin-right: 20px;  
+}
+#pic_number6{
+    display: inline-block;
+    position: relative;   
+}
+
 
 
 .heart{
@@ -106,6 +124,17 @@
 
 .green_banner{
     position: absolute;bottom: 80px;left: 45px;
+    color: white;
+    background-color: green;
+    font-size: 10px;
+    height: 15px;
+    width: 70px;
+    padding: 2px;
+    text-align: center;
+
+}
+.green_banner_2{
+    position: absolute;bottom: 80px;left: 0px;
     color: white;
     background-color: green;
     font-size: 10px;
