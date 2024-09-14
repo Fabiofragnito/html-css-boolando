@@ -81,7 +81,7 @@ footer{
 
 
 
-.pic_number1{
+#pic_number1{
     position: relative;
     display: inline-block;
     margin-right: 20px; 
@@ -90,14 +90,14 @@ footer{
 
 
 
-.first-raw .pic_number1 .back{
+.first-raw #pic_number1 .back{
     display: none;
 }
 
-.first-raw:hover .pic_number1 .back{
+#pic_number1:hover .back{
     display: inline-block;
 }
-.first-raw:hover .pic_number1 .front{
+#pic_number1:hover .front{
     display: none;
 }
 
@@ -119,10 +119,10 @@ footer{
     display: none;
 }
 
-.first-raw:hover #pic_number2 .back{
+#pic_number2:hover .back{
     display: inline-block;
 }
-.first-raw:hover #pic_number2 .front{
+#pic_number2:hover .front{
     display: none;
 }
 
@@ -135,10 +135,10 @@ footer{
     display: none;
 }
 
-.first-raw:hover #pic_number3 .back{
+#pic_number3:hover .back{
     display: inline-block;
 }
-.first-raw:hover #pic_number3 .front{
+#pic_number3:hover .front{
     display: none;
 }
 
@@ -152,10 +152,10 @@ footer{
     display: none;
 }
 
-.first-raw:hover #pic_number4 .back{
+#pic_number4:hover .back{
     display: inline-block;
 }
-.first-raw:hover #pic_number4 .front{
+#pic_number4:hover .front{
     display: none;
 }
 
@@ -170,10 +170,10 @@ footer{
     display: none;
 }
 
-.first-raw:hover #pic_number5 .back{
+#pic_number5:hover .back{
     display: inline-block;
 }
-.first-raw:hover #pic_number5 .front{
+#pic_number5:hover .front{
     display: none;
 }
 
@@ -188,10 +188,10 @@ footer{
     display: none;
 }
 
-.first-raw:hover #pic_number6 .back{
+#pic_number6:hover .back{
     display: inline-block;
 }
-.first-raw:hover #pic_number6 .front{
+#pic_number6:hover .front{
     display: none;
 }
 
