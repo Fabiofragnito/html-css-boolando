@@ -212,6 +212,9 @@ footer{
     
     
 }
+.heart:hover{
+    color: red;
+}
 
 .discount{
     position: absolute;bottom: 80px;left: 0px;
